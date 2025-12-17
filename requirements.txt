@@ -1,0 +1,4 @@
+# i don't actually use this (check pyproject.toml) but here it is anyway
+flask
+Flask-Limiter
+gunicorn
