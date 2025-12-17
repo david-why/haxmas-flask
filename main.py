@@ -60,4 +60,4 @@ def get_gifts():
     return flask.jsonify(gifts)
 
 if __name__ == "__main__":
-    app.run(debug=True, use_evalex=False)
+    app.run(debug=True, use_evalex=False, port=34572)
