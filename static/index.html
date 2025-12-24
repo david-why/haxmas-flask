@@ -14,18 +14,11 @@
     />
   </head>
   <body class="bg-success-subtle">
-    <div class="content container my-4">
+    <div class="content container">
       <h1>Jolly's Gift Tracker!</h1>
-      <img
-        src="https://haxmas.hackclub.com/haxmas-logo.png"
-        style="width: 40em"
-      />
+      <img src="https://haxmas.hackclub.com/haxmas-logo.png" id="large-logo" />
       <p class="fs-4 fst-italic">Tracking gifts since 2025</p>
-      <form
-        id="giftForm"
-        class="border-dashed border-4 border-danger p-2"
-        style="border-style: dashed"
-      >
+      <form id="giftForm" class="border-danger p-2">
         <div class="mb-3">
           <label for="name" class="form-label">First name: </label>
           <input
@@ -38,7 +31,13 @@
         </div>
         <div class="mb-3">
           <label for="gift" class="form-label">Gift: </label>
-          <input id="gift" type="text" name="gift" class="form-control" required />
+          <input
+            id="gift"
+            type="text"
+            name="gift"
+            class="form-control"
+            required
+          />
         </div>
         <input type="submit" value="Submit!" class="btn btn-success" />
       </form>

@@ -1,11 +1,12 @@
-/*
 body {
-    margin: 0;
-    padding: 0;
-    background-color: lightgreen !important;
+    margin: 1em 0;
 }
-.content {
-    text-align: center;
-    font-family: Arial, sans-serif;
+
+#large-logo {
+    width: 40em;
+    max-width: 100%;
 }
-*/
+
+#giftForm {
+    border: 4px dashed;
+}
